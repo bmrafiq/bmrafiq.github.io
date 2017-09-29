@@ -11,14 +11,21 @@
 /* -------------------------------------------------
   Laptop Screen 
 ---------------------------------------------------*/
-@media (min-width: 1170px) and (max-width: 1366px) {
+@media (min-width: 1170px) and (max-width: 1500px) {
 .container {width:1200px}	
 .mobile-menu-area{
   display: none;
 }
-
-
-
+.slider-style-home > div#adam_main_slider_wrapper {
+    background-position: 60% 65%;
+    background-size: 90% auto;
+}
+.slider_content h2 {
+  font-size: 100px;
+}
+.slider_content h4 {
+  font-size: 40px;
+}
 }
 
 
@@ -72,6 +79,17 @@
 }
 .fixed-footer-content {
   margin-bottom: 264px;
+}
+
+.slider-style-home > div#adam_main_slider_wrapper {
+    background-position: 60% 65%;
+    background-size: 110% auto;
+}
+.slider_content h2 {
+  font-size: 100px;
+}
+.slider_content h4 {
+  font-size: 40px;
 }
 
 
@@ -273,6 +291,24 @@
 }
 #adam_map {
   height: 300px;
+}
+
+.slider-style-home > div#adam_main_slider_wrapper {
+  height: 500px;
+  background-position: 100% 0;
+  background-size: 100% auto;
+}
+.slider_inner {
+  height: 500px;
+}
+.slider_content h2 {
+  font-size: 80px;
+}
+.slider_content h4 {
+  font-size: 30px;
+}
+.slider_content {
+  padding-top: 60px;
 }
 
 
@@ -776,6 +812,28 @@ sub.duration {
   overflow: hidden;
   padding: 18px 0 18px 20px;
 }
+.slider-style-home > div#adam_main_slider_wrapper {
+  background-color: #fff;
+  background-position: 84% 105%;
+  background-size: 260% auto;
+  height: 100vh;
+}
+.slider_inner {
+  height: 100vh;
+  align-items: flex-start;
+}
+.slider_content h2 {
+  font-size: 55px;
+  text-align: center;
+}
+.slider_content h4 {
+  font-size: 24px;
+  text-align: center;
+}
+.slider_content {
+  padding-top: 15%;
+}
+
 
 
 }
@@ -783,7 +841,7 @@ sub.duration {
   Large Mobile :480px. 
 ---------------------------------------------------*/
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-.container {width:450px}
+.container {width:90%}
 
 .sticky .mean-container .mean-bar {
   margin-top: -58px;
@@ -800,6 +858,9 @@ sub.duration {
 .service-style-two .single-service {
   padding: 0 30px;
 }
-
+.slider-style-home > div#adam_main_slider_wrapper {
+  background-position: 90% 200%;
+  background-size: 210% auto;
+}
 
 }
