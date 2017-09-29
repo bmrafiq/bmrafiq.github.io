@@ -862,6 +862,14 @@ sub.duration {
 .slider-style-home > div#adam_main_slider_wrapper {
   background-position: 90% 200%;
   background-size: 210% auto;
+  height: 700px;
 }
+.slider_inner {
+  height: 700px;
+}
+.slider_content {
+  padding-top: 110px;
+}
+  
 
 }
