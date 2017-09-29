@@ -882,6 +882,7 @@ a.button.extra-small {
     height: 100vh;
     width: 100%;
     position: relative;
+    background: rgba(0, 0, 0, 0) url('img/slider/2.jpg') no-repeat scroll right center;
 }
 
 .slider_inner {
