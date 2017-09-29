@@ -154,5 +154,7 @@
     });  
 
     $('[data-submenu]').submenupicker();
+	
+    $(".slider-style-home #adam_main_slider_wrapper").paroller();
 
 })(jQuery);
