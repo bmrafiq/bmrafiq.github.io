@@ -144,9 +144,6 @@
 .about-welcome-aea .block-text {
   padding-top: 40px;
 }
-.last-para-graph{
-  display: none;
-}
 .single-counter {
   float: left;
   margin-bottom: 1px;
@@ -413,9 +410,6 @@
 .about-welcome-aea .block-text {
   margin-bottom: 40px;
   padding-top: 40px;
-}
-.last-para-graph {
-  display: none;
 }
 .block-text-skill {
   margin-bottom: 50px;
@@ -816,10 +810,10 @@ sub.duration {
   background-color: #fff;
   background-position: 84% 105%;
   background-size: 260% auto;
-  height: 600px;
+  height: 650px;
 }
 .slider_inner {
-  height: 600px;
+  height: 650px;
   align-items: flex-start;
 }
 .slider_content h2 {
@@ -862,10 +856,10 @@ sub.duration {
 .slider-style-home > div#adam_main_slider_wrapper {
   background-position: 90% 200%;
   background-size: 210% auto;
-  height: 700px;
+  height: 750px;
 }
 .slider_inner {
-  height: 700px;
+  height: 750px;
 }
 .slider_content {
   padding-top: 110px;
