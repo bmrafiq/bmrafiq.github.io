@@ -890,6 +890,9 @@ a.button.extra-small {
     height: 100vh;
     justify-content: flex-start;
 }
+.slider_content{
+  width: 100%;
+}
 .slider_content h2 {
     font-size: 120px;
     font-weight: 700;
