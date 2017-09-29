@@ -713,7 +713,7 @@ a.button.extra-small {
 .adam-header .navbar-toggle {
   background-color: transparent;
   background-image: none;
-  border: 1px solid #e5e5e5;
+  border: 1px solid #000;
   border-radius: 0;
   float: right;
   margin: 13px 0;
@@ -724,7 +724,7 @@ a.button.extra-small {
   margin-top: 5px;
 }
 .adam-header .navbar-toggle .icon-bar {
-  background: #fff none repeat scroll 0 0;
+  background: #000 none repeat scroll 0 0;
   border-radius: 0;
   display: block;
   height: 1px;
